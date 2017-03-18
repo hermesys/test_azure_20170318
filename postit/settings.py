@@ -130,7 +130,8 @@ AZURE_CONTAINER='test'
 
 import os
 AZURE_ACCOUNT_KEY=os.environ['AZURE_ACCOUNT_KEY']
-# azure 아닌 local 구동 고려시 settings 파일을 구분해야 함
+# azure 아닌 local 구동 고려시 settings 파일을 구분해야 함.. dev, operation, CI 등...
+# 추후 이메일 주면 답변 드리겠슴
 
 #AZURE_ACCOUNT_KEY='cGCIs4PTUIP8nGTmQM6ZNBquDGWQcv4+UAabPCFL28KZtXpfPWWwnCCo8D+1ANebCibysfBK+kvoDwTrQrrXIg=='
 #기본 accecc key
